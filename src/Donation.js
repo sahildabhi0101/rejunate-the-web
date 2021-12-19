@@ -224,7 +224,7 @@ function Donation() {
                         </div>
                         <div class="pdm">
                             <div class="panel-body AF">
-                                <form role="form" id="payment-form">
+                                <form id="payment-form">
                                     <div class="row">
                                         <div class="col-xs-12">
                                             <div class="form-group cardnumber">

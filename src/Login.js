@@ -11,7 +11,7 @@ function Login() {
                         <div class="row justify-content-center my-auto">
                             <div class="col-md-8 col-10 my-5">
                                 <div class="row justify-content-center px-3 mb-3 py-2">
-                                    <img id="logo" src={image4} />
+                                    <img id="logo" src={image4}  alt="logo-img"/>
                                 </div>
                                 <form id="libraryform">
                                     <div class="form-group">
@@ -31,14 +31,14 @@ function Login() {
                                     <div class="row justify-content-center px-2"> <button class="btn-block btn-color">Login</button> </div>
                                 </form>
                                 <div class="row justify-content-center my-2">
-                                    <a href="#"><small class="text-muted ">Forgot Password?</small></a>
+                                    <a href="#" ><small class="text-muted ">Forgot Password?</small></a>
                                 </div>
                                 <p class="my-4">Login With ...</p>
                                 <div class="link my-2">
                                     <div class="links">
-                                        <a href="https://www.facebook.com/BVMEngineeringCollege/" target="_blank"><i class="fab fa-facebook fa-3x text-light"></i></a>
-                                        <a href="https://twitter.com/bvmtpc?lang=en" target="_blank"><i class="fab fa-twitter fa-3x text-light"></i></a>
-                                        <a href="https://www.instagram.com/bvmtpc/?hl=en" target="_blank"><i class="fab fa-instagram fa-3x text-light"></i></a>
+                                        <a href="https://www.facebook.com/BVMEngineeringCollege/" target="_blank" rel="noreferrer"><i class="fab fa-facebook fa-3x text-light"></i></a>
+                                        <a href="https://twitter.com/bvmtpc?lang=en" target="_blank" rel="noreferrer"><i class="fab fa-twitter fa-3x text-light"></i></a>
+                                        <a href="https://www.instagram.com/bvmtpc/?hl=en" target="_blank" rel="noreferrer"><i class="fab fa-instagram fa-3x text-light"></i></a>
                                     </div>
                                 </div>
                             </div>

@@ -190,7 +190,7 @@ function Home() {
           <p class="p3" data-aos="flip-up">Valuable Words of PRINCIPAL</p>
           <div class="p10">
             <div class="p101">
-              <img src={image6} alt="principal-image" class="p5" />
+              <img src={image6} alt="principal-img" class="p5" />
               <div class="p1011">
                 <br />Dear All,<br />Birla Vishvakarma Mahavidyalaya Engineering College (BVM), an institution of Charutar Vidya Mandal, is the<span class="p4">first engineering college of state(Since 1948) as well as first autonomous college of state(since 2015)</span> established in 1948 by inspiration and motivation of Iron man of India Shri Sardar Patel and generous  contribution from <span class="p4">Shri Ghanshyamdasji Birla</span> which is committed to emerge and disseminate word class unique  learning experience through research based education and innovation across sphere.  <br /><br />
               This premier technical  institution has nurtured 20,000+ engineers and continuously evolved with the facilities like best  infrastructure, state of art Laboratories upgraded with instruments and utility software packages, enriched  library, central computing and net station, canteen, play field, gymnasium, medical facilities, hostel and  residence quarters.
@@ -216,7 +216,7 @@ function Home() {
       <div className="map">
         <div className="mapimg" data-aos="fade-down"></div>
         <div class="map-responsive" data-aos="fade-up">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.7105367330237!2d72.9216363147916!3d22.55251358519319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e4e74c03b7749%3A0xab364c66fd4834c!2sBirla%20Vishvakarma%20Mahavidyalaya%20(BVM)!5e0!3m2!1sen!2sin!4v1609953923224!5m2!1sen!2sin" width="600" height="450" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.7105367330237!2d72.9216363147916!3d22.55251358519319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e4e74c03b7749%3A0xab364c66fd4834c!2sBirla%20Vishvakarma%20Mahavidyalaya%20(BVM)!5e0!3m2!1sen!2sin!4v1609953923224!5m2!1sen!2sin" width="600" height="450" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0" title="gmap"></iframe>
         </div>
       </div>
 
@@ -266,9 +266,9 @@ function Home() {
                 <div class="col-xl-6 col-md-2 col-sm-2 foo my-3 order-4">
                   <p class="social text-muted mb-0 pb-0 bold-text">
                     <div class="a5">
-                      <span class="mx-2"><a href="https://www.facebook.com/BVMEngineeringCollege/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></span>
+                      <span class="mx-2"><a href="https://www.facebook.com/BVMEngineeringCollege/" target="_blank" ><i class="fa fa-facebook-square" aria-hidden="true"></i></a></span>
                       <span class="mx-2"><a href="https://www.linkedin.com/in/bvmcollege/?originalSubdomain=in" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></span>
-                      <span class="mx-2"><a href="https://www.instagram.com/bvmtpc/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+                      <span class="mx-2"><a href="https://www.instagram.com/bvmtpc/?hl=en" target="_blank" rel="noreferrer"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
                       <span class="mx-2"><a href="https://twitter.com/bvmtpc?lang=en" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></span>
                       <span class="mx-2"><a href="https://www.youtube.com/watch?v=hqFIUhV8iA0" target="_blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></span>
                     </div>
