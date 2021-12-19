@@ -11,6 +11,7 @@ import AOS from 'aos'
 import "aos/dist/aos.css"
 import './pcorner.css'
 import image6 from './ip.jpg'
+import Marquee from "react-fast-marquee";
 
 
 
@@ -69,7 +70,7 @@ function Home() {
 
 
       <div className="newsline">
-        <marquee>
+        <Marquee speed={100}  pauseOnHover={"true"} gradientColor={[134,254,255]} gradientWidth={0}>
           <ul>
             <div className="title">
               <Link to='/motivationa' style={{ textDecoration: 'none' }}><li>Rise of a novelist in the league of BVMites </li></Link>
@@ -77,7 +78,7 @@ function Home() {
               <Link to='/motivationc' style={{ textDecoration: 'none' }}><li>Believe you can and you’re halfway there.</li></Link>
             </div>
           </ul>
-        </marquee>
+        </Marquee>
       </div>
 
       <h1 className="visit" data-aos="zoom-in">Blogs</h1>
@@ -266,11 +267,13 @@ function Home() {
                 <div class="col-xl-6 col-md-2 col-sm-2 foo my-3 order-4">
                   <p class="social text-muted mb-0 pb-0 bold-text">
                     <div class="a5">
-                      <span class="mx-2"><a href="https://www.facebook.com/BVMEngineeringCollege/" target="_blank" ><i class="fa fa-facebook-square" aria-hidden="true"></i></a></span>
-                      <span class="mx-2"><a href="https://www.linkedin.com/in/bvmcollege/?originalSubdomain=in" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></span>
-                      <span class="mx-2"><a href="https://www.instagram.com/bvmtpc/?hl=en" target="_blank" rel="noreferrer"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
-                      <span class="mx-2"><a href="https://twitter.com/bvmtpc?lang=en" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></span>
-                      <span class="mx-2"><a href="https://www.youtube.com/watch?v=hqFIUhV8iA0" target="_blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></span>
+                   { // eslint-disable-next-line 
+                   }
+                      <span class="mx-2"><a href="https://www.facebook.com/BVMEngineeringCollege/" target="_blank" rel="noreferrer"><i class="fa fa-facebook-square" ></i></a></span>
+                      <span class="mx-2"><a href="https://www.linkedin.com/in/bvmcollege/?originalSubdomain=in" target="_blank" rel="noreferrer"><i class="fa fa-linkedin-square" ></i></a></span>
+                      <span class="mx-2"><a href="https://www.instagram.com/bvmtpc/?hl=en" target="_blank" rel="noreferrer"><i class="fa fa-instagram" ></i></a></span>
+                      <span class="mx-2"><a href="https://twitter.com/bvmtpc?lang=en" target="_blank" rel="noreferrer"><i class="fa fa-twitter-square"></i></a></span>
+                      <span class="mx-2"><a href="https://www.youtube.com/watch?v=hqFIUhV8iA0" target="_blank" rel="noreferrer"><i class="fa fa-youtube-square" ></i></a></span>
                     </div>
                   </p>
 

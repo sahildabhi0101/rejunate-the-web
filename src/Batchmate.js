@@ -26,7 +26,7 @@ function Batchmate()
     var m;
     setfound(false);
 
-        info.map((item)=>{
+        info.map((item) => {
             if(item.id===search)
             {
                 
