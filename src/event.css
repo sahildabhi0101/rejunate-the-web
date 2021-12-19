@@ -1,0 +1,41 @@
+.ehead
+{
+    height: 50px;
+    width:100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #3b4872;   
+}
+.ev{
+text-align: center;
+font-size: 30px;
+color: rgb(56, 238, 10);
+border-left: 1px solid white;
+border-right: 1px solid white;
+border-bottom: 2px solid white;
+}
+.ev:hover,
+.permahover
+{
+    background-color: rgb(165, 233, 177);
+    color: rgb(250, 101, 1);
+    cursor: pointer;
+}
+
+.ev:active
+{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0,0,0,0.24);
+    background-color: white;
+    color: rgb(228, 190, 140);
+    cursor: pointer;
+}
+
+@media only screen and (max-width:600px) and (min-width:200px)
+  {
+     .ev{
+         font-size: 20px;
+         border-left: 1px solid white;
+     }
+  }
+
